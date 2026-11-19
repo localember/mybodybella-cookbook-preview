@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+  <title>Cookbook recipes (design preview) | Body Bella</title>
+  <meta name="description" content="Design preview of a cookbook recipe page for My Body Bella. Not the live site.">
+  <link rel="canonical" href="https://localember.github.io/mybodybella-cookbook-preview/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="le-preview-banner" role="note">Design preview, not live</div>
+
+  <header class="site-header" id="site-header">
+    <div class="wrap site-header__inner">
+      <a class="brand" href="https://www.mybodybella.com/" aria-label="Body Bella home">
+        <img src="assets/long-logo.webp" alt="Body Bella" width="768" height="288">
+        <span class="brand__tm" aria-hidden="true">™</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav" id="menu-toggle">
+        <span></span>
+      </button>
+
+      <ul class="nav" id="site-nav">
+        <li class="nav__item">
+          <button class="nav__btn" type="button" aria-expanded="false">About</button>
+          <div class="nav__drop">
+            <a href="https://www.mybodybella.com/us/">Meet the team</a>
+            <a href="https://www.mybodybella.com/why-us/">Why us?</a>
+            <a href="https://www.mybodybella.com/testimonials/">Testimonials</a>
+            <a href="https://www.mybodybella.com/review-us/">Review us</a>
+            <a href="https://www.mybodybella.com/faq-about-weight-loss-green-bay/">FAQ's</a>
+          </div>
+        </li>
+        <li class="nav__item">
+          <button class="nav__btn" type="button" aria-expanded="false">Blogs</button>
+          <div class="nav__drop">
+            <a href="https://www.mybodybella.com/blog/">Blog</a>
+          </div>
+        </li>
+        <li class="nav__item">
+          <a href="https://www.carecredit.com/go/677DQB/" target="_blank" rel="noopener">Financing</a>
+        </li>
+        <li class="nav__item">
+          <button class="nav__btn" type="button" aria-expanded="false">Resources</button>
+          <div class="nav__drop">
+            <a href="https://www.mybodybella.com/weight-loss/">Weight loss explained</a>
+            <a href="https://www.mybodybella.com/my-fault/">Not your fault</a>
+            <a href="https://www.mybodybella.com/weight-loss-will-save-money/">Save money</a>
+            <a href="https://www.mybodybella.com/individual-weight-loss-program/">Individual program</a>
+            <a href="https://www.mybodybella.com/much-sugar-much/">Sugar explained</a>
+            <a href="https://www.mybodybella.com/the-envelope-system/">Order Dr. Brookh's book</a>
+            <a href="https://www.mybodybella.com/financing/">Financing</a>
+            <a href="https://www.precisionchirogb.com/" target="_blank" rel="noopener">Dr. Dan Lyons - Chiropractic</a>
+          </div>
+        </li>
+        <li class="nav__item">
+          <a href="https://www.mybodybella.com/contact-us/">Contact</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__phone" href="tel:9206955561">(920) 695-5561</a>
+        </li>
+      </ul>
+
+      <a class="btn-cta header-cta" href="https://consultation.mybodybella.com/waitlist-inquiry-form-for-body-bella">Tell Me More</a>
+    </div>
+  </header>
+
+  <main class="page-main" id="main">
+    <div class="wrap">
+      <header class="cookbook-header" id="cookbook-header">
+        <figure class="cookbook-header__cover">
+          <img src="assets/sample-cookbook-cover.svg" alt="Placeholder cookbook cover. A real cover will go here." width="900" height="1200">
+        </figure>
+        <div class="cookbook-header__text">
+          <p class="cookbook-header__eyebrow">Placeholder cookbook</p>
+          <h1>Sample cookbook</h1>
+          <p class="cookbook-header__intro">A short intro for this cookbook will go here once we have the real title and cover. This is a labeled placeholder, not a real cookbook.</p>
+        </div>
+      </header>
+
+      <section class="recipes" aria-label="Cookbook recipes">
+        <div class="bb-index">
+          <form class="bb-index__search" role="search" id="recipe-search">
+            <label class="visually-hidden" for="bb-recipe-q" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);">Search recipes</label>
+            <input type="search" id="bb-recipe-q" name="q" placeholder="Search recipes" autocomplete="off">
+            <button type="submit">Search</button>
+            <a class="bb-index__clear" href="#" id="recipe-clear" hidden>Show all</a>
+          </form>
+
+          <nav class="bb-index__cats" aria-label="Recipe categories" id="recipe-cats">
+            <button type="button" class="bb-index__cat is-current" data-cat="all">All</button>
+          </nav>
+
+          <p class="bb-index__count" id="recipe-count">8 recipes</p>
+
+          <ul class="bb-index__grid" id="recipe-grid"></ul>
+
+          <p class="bb-index__empty" id="recipe-empty" hidden>No recipes match. Try a different word, or choose Show all.</p>
+        </div>
+      </section>
+
+      <section class="le-review" id="le-review" aria-labelledby="le-review-title">
+        <p class="le-review__label">For Local Ember review</p>
+        <h2 id="le-review-title">How this would work on the live site</h2>
+        <p>This section is for us, not for the client. It is a design preview of one cookbook recipe page. The recipes and the cookbook itself are labeled placeholders.</p>
+
+        <h3>Access: locked to buyers of that cookbook</h3>
+        <p>Her members-only system is already in the custom Body Bella Recipes plugin (body-bella-recipes), and it is currently off. On <strong>mybodybella.com/my-recipes/</strong>, the <strong>Who has access</strong> tab lets Rimsha add emails, set how many weeks someone has access, and later click <strong>Switch on private access</strong>. Clients then enter their email and get a sign-in link. Until that switch is on, the recipe library is open to anyone who has the link.</p>
+        <p>That system is built for the whole recipe library, not for one cookbook at a time, and it is not tied to a purchase. I did not find a third-party membership or shop plugin in the public WordPress REST API. The public API namespaces are Breakdance, LeadConnector, Rank Math, Google Site Kit, and a Local Ember API. There are no WooCommerce, MemberPress, Paid Memberships Pro, Wishlist Member, or Restrict Content routes. There is also no /shop/, /store/, /books/, or /cookbooks/ page, and no product post type in the public API.</p>
+        <p>A simple approach for the live build:</p>
+        <ol>
+          <li>Give each cookbook its own page, for example /cookbook/sample-cookbook/.</li>
+          <li>Lock that page to people who bought that cookbook. Extend the existing email-link access so a person can be granted a specific cookbook, not only the whole library. After purchase, their email is added to that cookbook's access list. They log in with the same email-link pattern already built.</li>
+          <li>Someone who has not bought it sees a teaser: the cover, title, short intro, and a buy button. They do not see the recipes.</li>
+        </ol>
+        <div class="note">
+          <p><strong>Assumptions to flag.</strong> Cookbooks may be sold off the website today, or the purchase flow may not exist yet. I could not verify a shop or checkout on mybodybella.com. If they later sell cookbooks through WooCommerce (or another shop), checkout can grant the cookbook access automatically. Until then, Rimsha could add a buyer to that cookbook's access list by hand, the same way she would add someone to the recipe library list. I also could not re-download the live recipe-library HTML in this pass (the host served a bot challenge to some requests), so the plugin identification is from our Body Bella Recipes copy and from the live REST API namespaces, not from a fresh view of every plugin path in the page source.</p>
+        </div>
+
+        <h3>How Rimsha adds recipes</h3>
+        <p>She keeps using the same flow she uses now. Nothing moves into WordPress admin.</p>
+        <ol>
+          <li>Go to <strong>mybodybella.com/my-recipes/</strong> and enter the passphrase if this device has not already been remembered.</li>
+          <li>Paste the recipe (and an optional photo), click <strong>Check this recipe</strong>, then <strong>Add it to my website</strong>.</li>
+          <li>Tag the recipe with the cookbook. The clean way is a new <strong>Cookbook</strong> taxonomy on the existing <strong>bb_recipe</strong> post type, with one term per cookbook. The cookbook page then shows only recipes with that term. Food categories (Chicken, Salads, and the rest) stay automatic from the name and ingredients, as they do today.</li>
+        </ol>
+        <p>The current add and edit screen does not have a cookbook field. We would add a cookbook picker on add and on edit, similar to the existing <strong>Also findable as</strong> box on Edit. Rimsha chooses the cookbook when she pastes or when she edits. To launch another cookbook later, we add a new taxonomy term and a new restricted page. The page template stays the same.</p>
+        <div class="note">
+          <p><strong>Assumptions to flag.</strong> This is based on the Body Bella Recipes plugin as we last had it, including the /my-recipes/ paste screen and the <strong>bb_recipe</strong> post type. I could not independently re-open /my-recipes/ in this pass. If the plugin has changed since then, the picker should still be added to whatever screen Rimsha uses now, not a new wp-admin workflow.</p>
+        </div>
+
+        <h3>What this preview is using</h3>
+        <p>This page is driven by one data file, <strong>data/sample-cookbook.json</strong>. Copy that file, change the title, intro, cover, and recipes, and open the preview with <strong>?book=your-slug</strong> to mock the next cookbook. The search box, category chips, and cards stay the same.</p>
+      </section>
+    </div>
+  </main>
+
+  <section class="cta-band">
+    <div class="wrap cta-band__inner">
+      <div>
+        <h2>Ready to learn whether Body Bella is the right fit for you?</h2>
+        <p>Take the first step toward supporting your health and releasing weight in a way that feels good.</p>
+      </div>
+      <a class="btn-cta" href="https://consultation.mybodybella.com/waitlist-inquiry-form-for-body-bella">Tell Me More</a>
+    </div>
+    <img class="cta-band__rose cta-band__rose--left" src="assets/rose.png" alt="" width="300" height="288">
+    <img class="cta-band__rose cta-band__rose--right" src="assets/rose.png" alt="" width="300" height="288">
+  </section>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p class="footer-blurb">Body Bella™ is a wellness and weight education program created by Dr. Brookh Lyons. We teach you how food, hydration, and everyday patterns can influence your wellness and weight, then give you a clear plan for nourishing your body consistently. No extreme dieting. No pressure. Just practical education, thoughtful guidance, and support you can use in real life. Dr. Brookh's role in Body Bella is to educate and guide you. Participation does not establish a doctor-patient relationship or replace care from your licensed healthcare provider.</p>
+      <div class="footer-split">
+        <div class="footer-split__col">
+          <p>Body Bella Transformations LLC</p>
+          <p>Available nationwide</p>
+          <p><a href="tel:9206955561">(920) 695-5561</a></p>
+        </div>
+        <div class="footer-split__col">
+          <img class="footer-logo" src="assets/long-logo.webp" alt="Body Bella" width="768" height="288">
+          <p class="social-label">Connect With Us</p>
+          <a class="social-fb" href="https://www.facebook.com/mybodybella/" target="_blank" rel="noopener" aria-label="Facebook">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M14 8h3V4h-3c-2.8 0-5 2.2-5 5v2H7v4h2v9h4v-9h3.2l.8-4H13V9c0-.6.4-1 1-1z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bar">
+      <div>&copy; 2026 Body Bella Transformations, LLC. All rights reserved.</div>
+      <p style="margin:6px 0 0;font-size:14px;line-height:1.8;">
+        <a href="https://www.mybodybella.com/privacy-policy/">Privacy Policy</a>
+        <span class="dot" aria-hidden="true">·</span>
+        <a href="https://www.mybodybella.com/terms-of-service/">Terms of Service</a>
+        <span class="dot" aria-hidden="true">·</span>
+        <a href="https://www.mybodybella.com/accessibility/">Accessibility Statement</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="cookbook.js"></script>
+</body>
+</html>

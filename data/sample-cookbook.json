@@ -1,0 +1,77 @@
+{
+  "slug": "sample-cookbook",
+  "placeholder": true,
+  "title": "Sample cookbook",
+  "eyebrow": "Placeholder cookbook",
+  "intro": "A short intro for this cookbook will go here once we have the real title and cover. This is a labeled placeholder, not a real cookbook.",
+  "cover": {
+    "src": "assets/sample-cookbook-cover.svg",
+    "alt": "Placeholder cookbook cover. A real cover will go here."
+  },
+  "recipes": [
+    {
+      "title": "Sample recipe 1",
+      "category": "eggs",
+      "categoryLabel": "Eggs & Breakfast",
+      "tagline": "A short placeholder description will go here when this recipe is added.",
+      "servings": "Placeholder servings",
+      "image": null
+    },
+    {
+      "title": "Sample recipe 2",
+      "category": "chicken",
+      "categoryLabel": "Chicken",
+      "tagline": "A short placeholder description will go here when this recipe is added.",
+      "servings": "Placeholder servings",
+      "image": null
+    },
+    {
+      "title": "Sample recipe 3",
+      "category": "fish",
+      "categoryLabel": "Fish & Seafood",
+      "tagline": "A short placeholder description will go here when this recipe is added.",
+      "servings": "Placeholder servings",
+      "image": null
+    },
+    {
+      "title": "Sample recipe 4",
+      "category": "beef",
+      "categoryLabel": "Beef & Steak",
+      "tagline": "A short placeholder description will go here when this recipe is added.",
+      "servings": "Placeholder servings",
+      "image": null
+    },
+    {
+      "title": "Sample recipe 5",
+      "category": "salad",
+      "categoryLabel": "Salads",
+      "tagline": "A short placeholder description will go here when this recipe is added.",
+      "servings": "Placeholder servings",
+      "image": null
+    },
+    {
+      "title": "Sample recipe 6",
+      "category": "dessert",
+      "categoryLabel": "Desserts & Sweets",
+      "tagline": "A short placeholder description will go here when this recipe is added.",
+      "servings": "Placeholder servings",
+      "image": null
+    },
+    {
+      "title": "Sample recipe 7",
+      "category": "sides",
+      "categoryLabel": "Sides & Vegetables",
+      "tagline": "A short placeholder description will go here when this recipe is added.",
+      "servings": "Placeholder servings",
+      "image": null
+    },
+    {
+      "title": "Sample recipe 8",
+      "category": "dressing",
+      "categoryLabel": "Dressings & Sauces",
+      "tagline": "A short placeholder description will go here when this recipe is added.",
+      "servings": "Placeholder servings",
+      "image": null
+    }
+  ]
+}
